@@ -1,0 +1,14 @@
+{
+  "name": "asyncapi",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "./node_modules/.bin/ts-node modelina.ts"
+  },
+  "dependencies": {
+    "@asyncapi/modelina": "^0.39.4",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
